@@ -1,0 +1,16 @@
+/* Bootstrap classi  */
+
+/* -larghezza immagini nav-bar; */
+.w-15 {
+    width: 8%;
+}
+
+/* jumbotroon// button cloror */
+
+.jbcolor {
+    background-color: rgb(97, 105, 246);
+}
+.btncolor {
+    color: white;
+    background-color: rgb(9, 206, 68);
+}
