@@ -1,7 +1,7 @@
 /* Bootstrap classi  */
 
 /* -larghezza immagini nav-bar; */
-.w-15 {
+.secondWith-8 {
     width: 8%;
 }
 
@@ -14,3 +14,27 @@
     color: white;
     background-color: rgb(9, 206, 68);
 }
+.iconbg {
+    background-color: rgb(245, 217, 198);
+}
+ion-icon {
+    color: rgb(241, 157, 101);
+}
+.coloric {
+    color: gray !important;
+}
+
+/* stelle  */
+.rating {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fa {
+    font-size: 10px;
+    color: #FFD700;
+    margin-right: 5px;
+  }
+  
+  
