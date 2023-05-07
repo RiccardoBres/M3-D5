@@ -36,5 +36,33 @@ ion-icon {
     color: #FFD700;
     margin-right: 5px;
   }
-  
+
+/* mediquery footer */
+@media (max-width: 760px) { 
+    .containerFoot{
+      display: flex;
+      justify-content: center !important;
+    }
+  }
+
+/* divextra */
+.formaDiv {
+    width: 50%;
+    top: 70px;
+    position:absolute;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    display: none;
+    
+}
+.show {
+    display: block !important;
+  }
+.iconcolor {
+    color: black;
+}
+.pointer {
+    cursor: pointer;
+}
   
