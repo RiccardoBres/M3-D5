@@ -2,7 +2,8 @@
 
 /* -larghezza immagini nav-bar; */
 .secondWith-8 {
-    width: 8%;
+    width: 55px;
+    min-width: 55px;
 }
 
 /* jumbotroon// button cloror */
@@ -47,7 +48,7 @@ ion-icon {
 
 /* divextra */
 .formaDiv {
-    width: 50%;
+    min-width: 350px;
     top: 70px;
     position:absolute;
     background-color: white;
@@ -65,4 +66,23 @@ ion-icon {
 .pointer {
     cursor: pointer;
 }
+
+/* trasformazioni  */
+.colorHov:hover {
+    transform: scale(1.55);
+    transition: transform 0.3s ease-in-out;
+    fill: gray;
+ } 
+
+ .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+ 
+  
   

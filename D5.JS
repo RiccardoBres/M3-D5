@@ -4,9 +4,9 @@ let formaDiv = document.querySelector(".formaDiv")
 
 
 
-immage.addEventListener("mouseenter", function(){
+immage.addEventListener("click", function(){
     formaDiv.classList.toggle("show")
 });
-immage.addEventListener("mouseleave", function(){
-    formaDiv.classList.toggle("show")
-})
+// immage.addEventListener("mouseleave", function(){
+//     formaDiv.classList.toggle("show")
+// })
